@@ -1,0 +1,7 @@
+I"m(function() {
+  $(document).ready(function() {
+    $('#summernote').summernote();
+  });
+
+}).call(this);
+:ET
