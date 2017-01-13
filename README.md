@@ -14,3 +14,5 @@ application up and running.
  4. *database*: rake db:setup
      
  5.  *server*: rails s
+
+ 6.  *main page*: go to localhost:3000 on browser

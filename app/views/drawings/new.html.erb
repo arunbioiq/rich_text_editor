@@ -1,11 +1,11 @@
 <div class = "container">
- <div class="row-fluid">
-  <div class="span4"></div>
-  <div class="span4"><div id="summernote"></div></div>
-  <div class="span4"></div>
- </div>
+  <div class="row-fluid">
+    <div class="span4"></div>
+    <div class="span4"><div id="summernote"></div></div>
+    <div class="span4"></div>
+  </div>
   <%= form_for @drawing do |f| %>
-   <%= f.hidden_field :html, :value => nil %>
-  <%= f.submit %>
+    <%= f.hidden_field :html, :value => nil %>
+    <%= f.submit %>
   <% end %>
 </div>
